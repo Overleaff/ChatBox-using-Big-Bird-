@@ -56,7 +56,8 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-
+#git attribites
+.gitattributes
 # Flask stuff:
 instance/
 .webassets-cache
