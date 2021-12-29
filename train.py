@@ -5,6 +5,7 @@ import json
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
+from transformers import TFBertModel
 
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
@@ -85,7 +86,9 @@ train_loader = DataLoader(dataset=dataset,
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
+###############################
+#model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model = TFBertModel.from_pretrained('bert-base-cased')
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
