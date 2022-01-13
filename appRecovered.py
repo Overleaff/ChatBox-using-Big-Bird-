@@ -1,11 +1,11 @@
 from tkinter import *
-#from bigbirdmodel import get_response, bot_name
+from bigbirdmodel import get_response, bot_name
 
 BG_GRAY = "#2986cc"
 BG_COLOR = "#17202A"
 TEXT_COLOR = "#EAECEE"
 
-FONT = "Helvetica 16"
+FONT = "Helvetica 14"
 FONT_BOLD = "Helvetica 13 bold"
 
 class ChatApplication:
@@ -18,9 +18,9 @@ class ChatApplication:
         self.window.mainloop()
         
     def _setup_main_window(self):
-        self.window.title("Covid-19 question answering")
-        self.window.resizable(width=False, height=True)
-        self.window.configure(width=470, height=300, bg=BG_COLOR)
+        self.window.title("Chat")
+        self.window.resizable(width=False, height=False)
+        self.window.configure(width=470, height=550, bg=BG_COLOR)
         
         # head label
         head_label = Label(self.window, bg="#6fa8dc", fg="#ffffff",
@@ -29,27 +29,26 @@ class ChatApplication:
         
         # tiny divider
         line = Label(self.window, width=450, bg=BG_GRAY)
-        line.place(relwidth=1, rely=0.07, relheight=0.02)
+        line.place(relwidth=1, rely=0.07, relheight=0.012)
         
         # text widget
         self.text_widget = Text(self.window, width=20, height=2, bg="white", fg="black",
                                 font=FONT, padx=5, pady=5)
-        #self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
-        self.text_widget.place(relheight=0.3, relwidth=1, rely=0.1)
+        self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
         
         # scroll bar
         scrollbar = Scrollbar(self.text_widget)
-        scrollbar.place(relheight=0.45, relx=0.974)
+        scrollbar.place(relheight=1, relx=0.974)
         scrollbar.configure(command=self.text_widget.yview)
         
         # bottom label
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)
-        bottom_label.place(relwidth=1, rely=0.3)
+        bottom_label.place(relwidth=1, rely=0.825)
         
         # message entry box
         self.msg_entry = Entry(bottom_label, bg="#ffffff", fg="#000000", font=FONT)
-        self.msg_entry.place(relwidth=0.74, relheight=0.07, rely=0.004, relx=0.011)
+        self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
         
@@ -72,7 +71,7 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
         
-       # msg2 = f"{bot_name}: {get_response(msg)}\n\n"   # ham tra ve output = function get_response tu chat.py
+        msg2 = f"{bot_name}: {get_response(msg)}\n\n"   # ham tra ve output = function get_response tu chat.py
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
