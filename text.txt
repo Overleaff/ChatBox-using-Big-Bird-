@@ -1,26 +1,45 @@
-Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
-Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.
+Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. 
+Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Some infected people will become seriously ill and require medical attention. Older people suffer serious illness. Anyone can get sick with coronavirus (COVID-19) and become seriously ill or die at any age. 
 
-The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance.
+The best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. 
 
-The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell.
+The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. 
 
 To prevent infection and to slow transmission of COVID-19, do the following:
-Get vaccinated when a vaccine is available to you.
+Get vaccinated when a vaccine is available to you. 
 Stay at least 1 metre apart from others, even if they don’t appear to be sick.
-Wear a properly fitted mask when physical distancing is not possible or when in poorly ventilated settings.
-Choose open, well-ventilated spaces over closed ones. Open a window if indoors.
-Wash your hands regularly with soap and water or clean them with alcohol-based hand rub.
-Cover your mouth and nose when coughing or sneezing.
-If you feel unwell, stay home and self-isolate until you recover.
+Wear a properly fitted mask when physical distancing is not possible or when in poorly ventilated settings. 
+Cover your mouth and nose when coughing or sneezing. 
 
-COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.
+If you feel unwell, stay home and self-isolate until you recover. 
 
-Most common symptoms are fever cough tiredness loss of taste or smell.
-Less common symptoms are sore throat headache aches and pains diarrhoea, a rash on skin or discolouration of fingers or toes red or irritated eyes.
+COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. 
 
-Serious symptoms:
-difficulty breathing or shortness of breath, loss of speech or mobility, or confusion, chest pain.
-Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility.
+Most common symptoms are fever cough tiredness loss of taste or smell. 
+Less common symptoms are sore throat headache aches and pains diarrhoea, a rash on skin or discolouration of fingers or toes red or irritated eyes. 
 
-People with mild symptoms who are otherwise healthy should manage their symptoms at home. On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.
+Serious symptoms: 
+Difficulty breathing or shortness of breath, loss of speech or mobility, or confusion, chest pain. 
+Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility. 
+
+People with mild symptoms who are otherwise healthy should manage their symptoms at home. On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days. 
+
+Access https://www.who.int/news-room/feature-stories/detail/the-race-for-a-covid-19-vaccine-explained for more information related to vaccines
+
+Know cases is infected in VietNam, access https://www.worldometers.info/coronavirus/country/viet-nam/. 
+
+Know cases is infected in the world, access https://www.who.int/emergencies/diseases/novel-coronavirus-2019. 
+
+COVID-19 Vaccines work by mimicking an infectious agent to ‘teaches’ our immune system to rapidly and effectively respond against it. 
+
+Even though COVID-19 vaccines are being developed as rapidly as possible, they must go through rigorous testing in clinical trials to prove that they meet internationally agreed benchmarks for safety and effectiveness. 
+
+The best vaccine to get is the one most readily available to you! 
+
+The vaccines provide at least some protection against new variants. 
+
+If you have any questions, speak to your doctor. 
+
+Pregnancy puts you at higher risk of severe illness compared to people who are not pregnant. 
+
+Children are at higher risk of severe illness?

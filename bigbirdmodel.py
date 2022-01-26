@@ -28,4 +28,19 @@ def get_response(msg):
     if (float(score) > 0.1):
         return result
 
-    return "i do not understand..."
+    return "Access https://www.who.int/ for more information"
+
+if __name__ == "__main__":
+    while (1):
+        question = input('Enter your question: ')
+        tokenizer.encode(question, truncation=True, padding=True)
+
+        nlp = pipeline('question-answering', model=model, tokenizer=tokenizer)
+
+        # Passing the Question and Context into the QA pipeline
+        output = nlp(question=question, context=context)
+
+        score = str(output)[9:16]  # lay 5 so sau so 0
+        if (float(score) > 0.1):
+            print(output)
+        else: print('Access https://www.who.int/ for more information')
