@@ -48,7 +48,7 @@ def get_response(msg):
     if (float(score) > 0.1):
         return result
 
-    return "i do not understand..."
+    return "Access https://www.who.int/ for more information"
 
 # initialize
 ind = 1
